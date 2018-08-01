@@ -1,0 +1,582 @@
+/* this is the new corporate style of the mpii */
+
+html, body {
+	margin: 0;
+	padding: 0;
+ 	color: rgb(60%,60%,60%);
+	background: #fff;
+	font: 90% Helvetica, Verdana, Arial, sans-serif;
+}
+
+h1 {
+	color: #fff;
+	background: rgb(67%,76%,84%);
+	font: bold 100% Verdana, Arial, Helvetica, sans-serif;
+	padding: 0.25em 0.25em 0.5em 0.25cm; 
+	margin: 0;
+	border: 1px solid rgb(67%,76%,84%);
+	border-width: 1px 0;
+}
+
+h2 {
+	font: bold 90%/1em Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding: 0.25em 0.25em 0.5em 0.25cm; 
+	line-height: 1.2;
+}
+
+h3 {
+	font: bold 85%/1em Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding-top: 1em;
+	padding: 0.25em 0.25em 0.5em 0.25cm; 
+	padding-bottom: 0;
+}
+
+h4 {
+	font: bold 80%/1em Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0.25em 0.25em 0.5em 0.25cm; 
+}
+
+p {
+	line-height: 1.5;
+	padding: 0 1em 0 1em;
+}
+
+dl {
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+html hr {
+	color: rgb(67%,76%,84%);
+	border: 1px solid rgb(67%,76%,84%);
+	background-color: #fff;
+	height: 1px;
+	margin-left: 1em;
+}
+
+address {
+	padding: 0.5em 1em 0.5em 1em;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+a:link {color: #036;}
+
+a:visited {
+	color: #669;
+/*	color: #036; */
+/*	color: #99c; */
+/*	color: rgb(67%,76%,84%);  */
+}
+
+a:hover {
+	color: #036;
+}
+
+#col2o3content p {
+	line-height: 1.5;
+	padding: 0 1em 0 1em;
+}
+
+#col2o3content ul li {
+	line-height: 1.5;
+	list-style: square;
+}
+
+#col2o3content h1 {
+	font: bold 100% Verdana, Arial, Helvetica, sans-serif;
+	border: 0;
+	padding-left: 0.6em;
+	color: #fff;
+	/* background: #fff; */
+	border-bottom: 1px solid rgb(67%,76%,84%);
+}
+
+/* css driven header navigation style */
+
+#head1o2 {
+	width: 100%;
+  	height: 4.5em;
+	margin: 0;
+	padding: 0 0 0 1em;
+	background: #036;
+	text-align: left;
+	color: #fff;
+}
+
+#head2o2 {
+	width: 100%;
+	height: 3.5em;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+#path {
+	float: right;
+	padding: 1em;
+	font-weight: bold;
+	background: #fff;
+	text-align: right;
+	color: rgb(54%,64%,70%);
+	clear: right;
+}
+
+#nav1 {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 2em 1em 0 0;
+}
+
+#nav1 li {
+	color: #99c;
+	font-weight:bold;
+	list-style: none; 
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+	/* border-left: 1px solid #99c; */
+	display: inline;
+}
+
+#nav1 li a {
+	display: inline; 
+	padding: 0;
+	text-decoration: none; 
+	font-weight: bold;
+	color: #99c;
+/*	width: .1em; */
+}
+
+#nav1 li a:visited {
+	border-bottom: 0;
+}
+
+html>body #nav1 a {width: auto;}    /* fixes IE6 hack */
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#nav1 a {float: none;}            /* End IE5-Mac hack */
+#nav1 li a:hover {color: #fff;}
+
+#nav2 {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	padding-right: 1em;
+	text-align: right;
+}
+
+#nav2 li {
+	list-style: none; 
+	margin-left: 0;
+	padding-left: 0;
+	font-weight: bold;
+	color: rgb(54%,64%,70%);
+	white-space: nowrap;
+	display: inline;
+}
+
+#nav2 li a {
+	display: inline; 
+	padding: 0;
+	text-decoration: none; 
+	font-weight: bold;
+	color: rgb(54%,64%,70%);
+	border-bottom: 0;
+}
+
+html>body #nav2 a {width: auto;}    /* fixes IE6 hack */
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#nav2 li a {float: none;}            /* End IE5-Mac hack */
+
+#nav2 li a:visited {text-decoration: none; border-bottom: 0;}
+#nav2 li a:hover {color: #036;}
+
+#headend {
+	clear: left;
+}
+
+#mpiilogo {
+	float:right;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	border: 0;
+}
+
+#mpiidot {
+	/* position needs to be fixed */
+	display: none;
+	position: relative;
+	float: right;
+	top: 0px;
+	width: 15px;
+	height: 10px;
+	/* position: relative; */
+	padding: 0;	
+	background: #99c;
+	z-index: 1;
+	margin-right: 202px;
+}
+
+#mpiitext {
+	font: bold 14px "Times New Roman", Times, serif;
+	padding-left: 15px;
+	padding-top: 10px;
+	display: block;
+	float: right;
+	width: 160px;
+	letter-spacing: 1px;
+	color: #036;
+}
+
+#quickjump {
+	text-align: right;
+ 	height: 1em;
+	margin: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+}
+
+#footer {
+	background: #fff;
+	font-size: 11px;
+	margin-top: 10px;
+	padding: 1em 2em 1em 2em;
+	text-align: center;
+	border-top-color: rgb(67%,76%,84%);
+	border-top: 1px solid rgb(67%,76%,84%);
+	border-bottom: 1px solid rgb(67%,76%,84%);
+	clear: both; 
+}
+
+#lastchange {
+	font-size: 10px;
+	margin-top: 10px;
+	padding-top: 10px;
+	text-align: center;
+	border-top-color: rgb(67%,76%,84%);
+	border-top: 1px solid rgb(67%,76%,84%);
+}
+
+form {
+	padding: 0;
+}
+
+optgroup {font-style: normal;}
+
+.button {
+    margin-top: 1px;
+	margin-left: 5px;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: White;
+    border: 1px solid rgb(67%,76%,84%); 
+}
+
+#Query {
+    margin-left: 1em;
+	margin-top: 1em;
+    padding-left: 1px;
+    cursor: text;
+    background-color: White;
+    border: 1px solid rgb(67%,76%,84%); 
+	width: 14.5em;
+}
+
+.search p {
+      border: 1px;
+}
+
+#search {
+	float: left;
+	clear: left;
+}
+
+/* css driven layout */
+
+#headerspacer {
+	color: #036;
+	font-size: 1px;
+	/* height: 1em; */
+	display: block;
+	clear: both;
+}
+
+/* Set up NN4 values - purely to prevent vertical "looseness" */
+#headerspacer {
+	margin: 0px;
+	margin-top: -10px;
+	padding: 0px;
+}
+/* Set up default spacer values */
+#headerspacer {
+	/*/*/
+	margin: 0px;
+	padding: 8px;
+	/* */
+}
+
+#col2o3 {
+	position: absolute;
+	left: 0px;
+	width: 70%;
+	z-index: 3;
+	border:0;
+}
+
+#col2o3content {
+	margin: 0;
+	margin-right: 0px;
+	margin-left: 17em;
+	padding: 0;
+	color: #036;
+	background-color: #fff;
+	border: 0;
+	border-top: 1px solid  rgb(67%,76%,84%);
+	border-left: 1px solid  rgb(67%,76%,84%);
+ 	border-right: 1px solid rgb(67%,76%,84%);
+}
+
+#col2o3content ul li {
+	line-height: 1.5;
+	list-style: square;
+}
+#col2o3content img {
+	float: left;
+	margin: 1em 1em 1em 1em;
+}
+
+#col1o3 {
+	position: absolute;
+	left: 1em;
+	width: 15em;
+	z-index: 4;
+}
+
+#col1o3content {
+	margin-right: 0px;
+	padding: 0px;
+	color: #036;
+	background-color: #fff;
+	/* border-right: 1px solid rgb(67%,76%,84%); */
+	border-top: 1px solid rgb(67%,76%,84%);
+}
+
+#col3o3 {
+	position: absolute;
+	left: 71%;
+	z-index: 1;
+}
+
+/* NN4 collapses the right column if the width is specified
+Other bowsers collapse if it isn't */
+
+#col3o3 {
+	width: 26%;
+}
+#col3o3content {
+	/* margin-right: 20px; */
+	padding: 0px;
+	color: #036;
+	/* color: rgb(54%,64%,70%); */
+	background-color: #fff;
+	border-top: 1px solid rgb(67%,76%,84%);
+	border-right: 1px solid rgb(67%,76%,84%);
+	border-left: 1px solid rgb(67%,76%,84%);
+}
+
+/* unset NN4 spacing values for footer */
+
+/* indentation for nested list items - everywhere */
+
+/* indentation for nested list items - everywhere */
+
+ul { 
+	margin: 0 0 0 2em;
+	padding: 0 0 0 1em;
+}
+
+ul.linklist {
+	color: #036;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.linklist li {
+	line-height: 1.5;
+	border-bottom: 1px solid rgb(67%,76%,84%);
+	margin: 0;
+	padding: 0;
+}
+
+ul.linklist li ul {
+	margin-left: 1.5em;
+	padding-left: 0;
+}
+
+ul.linklist a {display: block; text-decoration: none; padding: 0 0 0 0.33em; height: 100%;}
+ul.linklist a:link {text-decoration: none;}
+ul.linklist a:visited {text-decoration: none;}
+ul.linklist a:hover {background: rgb(80%,85%,90%);}
+
+ul.linklist li li {
+	line-height: 1.5;
+	border-bottom: 0;
+	border-top: 1px solid rgb(67%,76%,84%);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.selected {
+	background: rgb(80%,85%,90%);
+}
+
+/* 2-column layout */
+
+#col1o2 {
+	position: absolute;
+	left: 1em;
+	width: 15em;
+	z-index: 4;
+}
+
+#col1o2content {
+	margin-right: 0px;
+	padding: 0px;
+	color: #036;
+	background-color: #fff;
+	/* border-right: 1px solid rgb(67%,76%,84%); */
+	border-top: 1px solid rgb(67%,76%,84%);
+}
+
+#col2o2 {
+	position: absolute;
+	left: 0px;
+	width: 98%;
+	z-index: 3;
+	border:0;
+}
+
+#col2o2content {
+	margin: 0;
+	margin-right: 0px;
+	margin-left: 17em;
+	padding: 0;
+	color: #036;
+	background-color: #fff;
+	border: 0;
+	border-top: 1px solid  rgb(67%,76%,84%);
+	border-left: 1px solid  rgb(67%,76%,84%);
+ 	border-right: 1px solid rgb(67%,76%,84%);
+}
+
+#col2o2content ul li {
+	line-height: 1.5;
+	list-style: square;
+}
+#col2o2content img {
+	float: left;
+	margin: 1em 1em 1em 1em;
+}
+
+
+/* ====================================================================
+GENERAL STYLING
+-------------------------------------------------------------------- */
+/* border:nones are for NN4 */
+html { margin: 0px; padding: 0px; }
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+}
+div { margin: 0px; padding: 0px; }
+p {padding: 0px; margin: 0px;}
+.clear { clear: both;} /* CSS HACK: only for NN4, so now use Caio hack to cleanse palette */
+/*/*/ .clear { display: none; } /* */
+/* box-wrap is only needed if you want to set a background color for the columns, put a border round the content block or fix the content width */
+.box-wrap
+	{
+	color: #000;
+	background: #fff;
+	}
+.box-header
+	{
+	color: #fff;
+	background: #036;
+	margin: 0px;
+	padding: 0.5em;
+	border: none;
+	}
+h1 { margin: 0px; }
+h2 {
+	font-size: 1em;
+	color: #fff;
+	background-color: rgb(67%,76%,84%);
+	margin: 0px 0px 0.5em 0px;
+	padding: 0.25em;
+	} 
+.box-footer
+	{
+	background: #fff;
+	padding: 0.5em;
+	clear: both;
+	border: none
+	}
+/* ====================================================================
+COLUMNS LAYOUT
+-------------------------------------------------------------------- */
+.columns-float
+	{
+	float: left;
+	width: 75%;
+	}
+.column-one
+	{
+	float: right;
+	width: 66%;
+	}
+/* CSS HACK: Caio hide from NN4 since NN4's float model is all wrong */
+/*/*/
+.column-two { margin-right: 66%; }
+.column-three {margin-left: 75%; }
+/* */
+.column-one-content, .column-two-content, .column-three-content	{
+	padding: 0px;
+	border: 1px solid rgb(67%,76%,84%);
+	color: #000;
+}
+.column-one-content { background: #fff; }
+.column-two-content { background: #fff; }
+.column-three-content { background: #fff; }
+/* VERTICAL PADDING ABOVE COLUMNS */
+.box-header
+	{ margin-bottom: 0px; }
+.column_padding_after
+	{
+	height:0px;
+	font-size: 1px;
+	line-height: 0px;
+	clear: both;
+	}
+/* CSS HACK:  position:relative needed by IE6 otherwise the header and col 2 don't show up on initial rendering - they're there but you have to minimise the window or switch to another app and back to see the full effect. But IE5(pc) doesn't like it. And nor does NN4.
+NB. the use of pos:rel has to go way beyond skin-deep - any nested element that needs a background colour appears to require to be be relatively positioned */ 
+/*/*/
+.box-wrap, .columns-float, .column-one, .column-two, .column-three, h2
+	{ p\osition: relative; }
+/* */

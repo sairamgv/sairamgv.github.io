@@ -1,0 +1,198 @@
+/* used for all skinned form input forms */
+
+form fieldset {
+	border: 1px solid #ccc;
+}
+
+form fieldset dl {
+	padding: 0 1em 0 1em;
+	margin: 1em 0 0 0;
+	/* background: url(fieldset-background.png) left bottom repeat-x; */
+	margin-top: 1em;
+}
+
+form fieldset dt {
+	float: left;
+	width: 13em;
+	text-align: right;
+	clear: right;
+	margin-right: 1em;
+}
+
+form fieldset dd {
+	padding: 0 0 0.5em 0.5em;
+}
+
+input, textarea {
+	 border-top: 1px solid #999;
+	 border-left: 1px solid #999;
+	 border-right: 1px solid #eee;
+	 border-bottom: 1px solid #eee;
+	 margin:0;
+	 padding:0;
+	 background-color:#fff;
+}
+
+label {
+	 display: block;
+	 /* background: url(rounded-left.gif) top left no-repeat; */
+	 text-align: right;
+	 margin: 0;
+	 padding-right: 0;
+}
+
+legend {
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-weight:bold;
+	 font-size:small;
+	 border: 1px solid #ccc;
+	 border-bottom-color:#999;
+	 border-right-color:#999;
+	 padding: 4px 8px;
+	 color:#666;
+	 background-image: url(fieldset-background.png);
+	 border: 1px solid #ccc;
+	 margin-left: 2em;
+}
+/* STANDARD */
+
+.buttons {
+	 margin:0.5em;
+	 padding: 0;
+}
+
+button:hover, .buttons a:hover{
+	 background-color:#dff4ff;
+	 color:#336699;
+}
+.buttons a:active{
+	 background-color:#6299c5;
+	 color:#fff;
+}
+
+/* POSITIVE */
+
+button.positive, .buttons a.positive{
+	  color:#529214;
+}
+.buttons a.positive:hover, button.positive:hover{
+	  background-color: #E6EFC2;
+	  color:#529214;
+}
+.buttons a.positive:active{
+	 background-color:#529214;
+	 color:#fff;
+}
+
+/* NEGATIVE */
+
+.buttons a.negative, button.negative{
+	color:#d12f19;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.buttons a.negative:hover, button.negative:hover{
+	background:#fbe3e4;
+	font-weight: bold;
+	color:#d12f19;
+}
+.buttons a.negative:active{
+	background-color:#d12f19;
+	color:#fff;
+	font-weight: bold;
+}
+
+button {
+	border-color: #eee #999 #999 #eee;
+	padding: 4px 8px;
+	font-weight: bold;
+}
+
+table.multiinput {
+	border-top: 1px solid rgb(80%,85%,90%);
+	border-left: 1px solid rgb(80%,85%,90%);
+	border-collapse: collapse;
+	padding: 0.5em 0 0 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	min-width: 500px;
+}
+
+table.multiinput caption {
+	margin: 0.25em 0 0.25em 0em;
+	padding: 0.25em 0.5em 0.25em 0.5em;
+	text-align: left;
+	border: 1px solid rgb(80%,85%,90%);
+	border-bottom: none;
+	font-size: 10pt;
+	font-weight: bold;
+	letter-spacing: 1px;
+	background: rgb(80%,85%,90%);
+}
+
+table.multiinput th {
+	padding:0.5em;
+	border-right:1px solid rgb(80%,85%,90%);
+	border-bottom:1px solid rgb(80%,85%,90%);
+	background:#eee;
+	text-align:right;
+	vertical-align:top;
+	font-size:10pt;
+	width:130px;
+}
+
+table.multiinput td {
+	padding:0.5em;
+	border-right:1px solid rgb(80%,85%,90%);
+	border-bottom:1px solid rgb(80%,85%,90%);
+	font-size: 10pt;
+}
+
+table.multiinput label {
+	 display: block;
+	 /* background: url(rounded-left.gif) top left no-repeat; */
+	 text-align:left;
+	 margin:2px;
+	 padding-right:2px;
+}
+
+.inputhelp {
+	color: #AB0C17;
+	font-size: 10pt;
+}
+/* fieldset {padding: 1em; margin: 1em}; */
+/* legend {border: 1px solid #ccc; padding:0.5em; margin:0.5em}; */
+
+.dominotune br {
+	display: none;
+}
+
+/* the INF style has the short coming of having an ugly margin */
+#col2o2content img {
+    margin: 0;
+}
+/* XPages hack for images as part of buttons in a view */
+
+#col2o2content button img {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+
+#col2o3content img {
+    margin: 0;
+}
+
+table tbody tr td button {
+	margin: 0;
+	padding: 0;
+}
+
+.xspColumnViewStart {
+	padding:0;
+}
+
+.xspColumnViewMiddle {
+	padding:0;
+}
