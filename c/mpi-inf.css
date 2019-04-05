@@ -537,9 +537,9 @@ tt {
 }
 
 #col2o2content {
-	margin:auto;
+	margin:0 auto;
 	margin-top:3em;
-	padding:0;
+	padding:10px;
 	color:#036;
 	background-color:#fff;
 	border:1px solid rgb(67%,76%,84%);
