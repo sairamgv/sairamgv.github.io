@@ -519,8 +519,8 @@ tt {
 }
 
 #col1o2content {
-	margin-right:0px;
-	padding:0px;
+	margin-right:100px;
+	padding-left:100px;
 	color:#036;
 	background-color:#fff;
 	/* border-right:1px solid rgb(67%,76%,84%); */
